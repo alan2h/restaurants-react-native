@@ -9,6 +9,7 @@ export default function Loading(props){
             isVisible={is_visible}
              windowbackgroundColor="rgba(0, 0, 0, 0.5)"
              overlayBackgroundColor="transparent"
+             overlayStyle={styles.overlay}
             >
                 <View>
                     <ActivityIndicator size="large" color="#00a680" />
